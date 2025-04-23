@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+:root{
+    --primary-color: #48CFCB;
+    --font-small: 15px;
+    --font-medium: 20px;
+    --font-high: 25px;
+}
+
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+.nav-item.aktif .nav-link,
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--primary-color); /* Warna teks */
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.nav-link:active {
+  color: var(--primary-color); /* Warna teks */
+}
+
+.navbar-nav .nav-item.aktif .nav-link {
+    color: var(--primary-color); /* Warna teks */
+}    
+
+.title{
+  color: var(--primary-color);
+}
+.accordion-button{
+  font-size: var(--font-medium);
+}
+
+.accordion-button:not(.collapsed){
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #f5f5f5;
+}
+
+#contact{
+  background-color: white;
+}
